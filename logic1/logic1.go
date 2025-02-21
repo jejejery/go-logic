@@ -137,6 +137,7 @@ func Logic1_11(n int) []string{
 			arr = append(arr, strconv.Itoa(value))
 			if (first) {
 				value += 2
+				first = false
 			} else {
 				value *= 2
 			}
