@@ -139,7 +139,7 @@ func Logic2_10(n int) [][]int {
 	row_counter := 0
 	for i := 0; i < n; i++ {
 		for j := 0; j < n; j++ {
-			if(j >= row_counter){
+			if(j <= row_counter){
 				mat[i][j] = 2*j + 1
 			}
 		}
@@ -154,7 +154,7 @@ func Logic2_11(n int) [][]int {
 	row_counter := 0
 	for i := 0; i < n; i++ {
 		for j := 0; j < n; j++ {
-			if(j <= row_counter){
+			if(j >= row_counter){
 				mat[i][j] = 2*j + 1
 			}
 		}
