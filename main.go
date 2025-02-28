@@ -5,6 +5,8 @@ import (
 	"github.com/jejejery/go-printarray"
 	"github.com/jejejery/go-logic/logic1"
 	"github.com/jejejery/go-logic/logic2"
+	"github.com/jejejery/go-logic/logic3"
+	"github.com/jejejery/go-logic/logic4"
 )
 
 func main() {
@@ -94,4 +96,33 @@ func main() {
 	logic2_13 := logic2.Logic2_13(9)
 	goprintarray.PrintMatrix(logic2_13)
 	fmt.Println("\n")
+	fmt.Println("=========Logic 3==========\n")
+	logic3_03 := logic3.Logic3_03(9)
+	goprintarray.PrintMatrix(logic3_03)
+	fmt.Println("\n")
+	// logic3_04 := logic3.Logic3_04(8)
+	// goprintarray.PrintMatrix(logic3_04)
+	// fmt.Println("\n")
+	// logic3_12 := logic3.Logic3_12(9)
+	// goprintarray.PrintMatrix(logic3_12)
+	// fmt.Println("\n")
+	// logic3_13 := logic3.Logic3_13(9)
+	// goprintarray.PrintStrMatrix(logic3_13)
+	// fmt.Println("\n")
+	// logic3_10 := logic3.Logic3_10(8)
+	// goprintarray.PrintMatrix(logic3_10)
+	// fmt.Println("\n")
+	// logic3_14 := logic3.Logic3_14(5)
+	// goprintarray.PrintMatrix(logic3_14)
+	// fmt.Println("\n")
+	fmt.Println("=========Logic 4==========\n")
+	logic4_01 := logic4.Logic4_01(4)
+	goprintarray.PrintMatrix(logic4_01)
+	fmt.Println("\n")
+	logic4_02 := logic4.Logic4_02(4)
+	goprintarray.PrintMatrix(logic4_02)
+	fmt.Println("\n")
+	// logic4_03 := logic4.Logic3_03(4)
+	// goprintarray.PrintMatrix(logic4_03)
+	// fmt.Println("\n")
 }

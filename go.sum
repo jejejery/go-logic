@@ -4,3 +4,5 @@ github.com/jejejery/go-printarray v1.0.2 h1:N/l+VDE5+TaBvvQR0CSPugo7hEIm7N9FdF92
 github.com/jejejery/go-printarray v1.0.2/go.mod h1:uqyWfN1CO+i99Lh6SUBja0JJedAQuW4qJob+X0RWpTE=
 github.com/jejejery/go-printarray v1.0.3 h1:SD3nR4pXk3g8Y52i9Z1JVP47Hex6Feu7meWCQ/sMpC0=
 github.com/jejejery/go-printarray v1.0.3/go.mod h1:uqyWfN1CO+i99Lh6SUBja0JJedAQuW4qJob+X0RWpTE=
+github.com/jejejery/go-printarray v1.0.5 h1:srDLid18Cj+NdXidkESZDG6PX912hJX/e6IA/gL6Kf4=
+github.com/jejejery/go-printarray v1.0.5/go.mod h1:uqyWfN1CO+i99Lh6SUBja0JJedAQuW4qJob+X0RWpTE=
